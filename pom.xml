@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.cyberflame</groupId>
-    <artifactId>plugin</artifactId>
+    <artifactId>deopdisconnect</artifactId>
     <version>1.0.0</version>
-    <name>plugin</name>
+    <name>DeopDisconnect</name>
     <repositories>
         <repository>
             <id>spigot-repo</id>
