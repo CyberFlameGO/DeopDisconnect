@@ -10,7 +10,7 @@ public class PlayerQuitListener implements Listener {
     @EventHandler
     public void onPlayerQuit (final PlayerQuitEvent event) {
         if(player.isOp()){
-            player.setOp(false)
+            player.setOp(false);
             }
     }
 }
