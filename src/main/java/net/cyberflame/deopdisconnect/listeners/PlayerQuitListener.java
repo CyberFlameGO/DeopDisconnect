@@ -9,8 +9,8 @@ import net.cyberflame.deopdisconnect.Main;
 public class PlayerQuitListener implements Listener {
     @EventHandler
     public void onPlayerQuit (final PlayerQuitEvent event) {
-        if(player.isOp()){
-            player.setOp(false);
+        if(event.getPlayer().isOp()){
+            event.getPlayer().setOp(false);
             }
     }
 }
