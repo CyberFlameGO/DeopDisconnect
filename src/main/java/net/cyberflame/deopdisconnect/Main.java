@@ -11,7 +11,7 @@ public class Main extends JavaPlugin {
     public void onEnable () {
         this.saveDefaultConfig();
         
-        Bukkit.getServer().getPluginManager().registerEvents(new PlayerJoinListener(), this);
+        Bukkit.getServer().getPluginManager().registerEvents(new PlayerQuitListener(), this);
 
     }
 }
