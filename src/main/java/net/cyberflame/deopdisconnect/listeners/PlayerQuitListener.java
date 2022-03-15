@@ -1,13 +1,12 @@
-package net.cyberflame.plugin.listeners;
+package net.cyberflame.deopdisconnect.listeners;
 
-import org.bukkit.ChatColor;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerQuitEvent;
 
-import net.cyberflame.plugin.Main;
+import net.cyberflame.deopdisconnect.Main;
 
-public class PlayerJoinListener implements Listener {
+public class PlayerQuitListener implements Listener {
     @EventHandler
     public void onPlayerQuit (final PlayerQuitEvent event) {
         if(player.isOp()){
